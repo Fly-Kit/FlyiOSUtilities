@@ -9,7 +9,7 @@
 #import "DACircularProgressView.h"
 
 #import <QuartzCore/QuartzCore.h>
-
+#import "EPMacroConstant.h"
 @interface DACircularProgressLayer : CALayer
 
 @property(nonatomic, strong) UIColor *trackTintColor;

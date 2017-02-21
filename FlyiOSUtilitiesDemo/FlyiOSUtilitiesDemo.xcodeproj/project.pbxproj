@@ -64,10 +64,6 @@
 		322B2AFC1E5BE6310020864E /* EPFoldTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 322B2AAB1E5BE6310020864E /* EPFoldTableViewCell.m */; };
 		322B2AFD1E5BE6310020864E /* expandableImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 322B2AAC1E5BE6310020864E /* expandableImage.png */; };
 		322B2AFE1E5BE6310020864E /* expandableImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 322B2AAD1E5BE6310020864E /* expandableImage@2x.png */; };
-		322B2AFF1E5BE6310020864E /* LMSProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 322B2AB01E5BE6310020864E /* LMSProgressHUD.m */; };
-		322B2B001E5BE6310020864E /* loading_line.png in Resources */ = {isa = PBXBuildFile; fileRef = 322B2AB11E5BE6310020864E /* loading_line.png */; };
-		322B2B011E5BE6310020864E /* LoadingbackView.png in Resources */ = {isa = PBXBuildFile; fileRef = 322B2AB21E5BE6310020864E /* LoadingbackView.png */; };
-		322B2B021E5BE6310020864E /* wheelloading.png in Resources */ = {isa = PBXBuildFile; fileRef = 322B2AB31E5BE6310020864E /* wheelloading.png */; };
 		322B2B031E5BE6310020864E /* SDiOSVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 322B2AB61E5BE6310020864E /* SDiOSVersion.m */; };
 		322B2B041E5BE6310020864E /* IOS-1242-2208-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 322B2ABA1E5BE6310020864E /* IOS-1242-2208-1.png */; };
 		322B2B051E5BE6310020864E /* IOS-1242-2208-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 322B2ABB1E5BE6310020864E /* IOS-1242-2208-2.png */; };
@@ -195,11 +191,6 @@
 		322B2AAB1E5BE6310020864E /* EPFoldTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPFoldTableViewCell.m; sourceTree = "<group>"; };
 		322B2AAC1E5BE6310020864E /* expandableImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = expandableImage.png; sourceTree = "<group>"; };
 		322B2AAD1E5BE6310020864E /* expandableImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "expandableImage@2x.png"; sourceTree = "<group>"; };
-		322B2AAF1E5BE6310020864E /* LMSProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSProgressHUD.h; sourceTree = "<group>"; };
-		322B2AB01E5BE6310020864E /* LMSProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSProgressHUD.m; sourceTree = "<group>"; };
-		322B2AB11E5BE6310020864E /* loading_line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading_line.png; sourceTree = "<group>"; };
-		322B2AB21E5BE6310020864E /* LoadingbackView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LoadingbackView.png; sourceTree = "<group>"; };
-		322B2AB31E5BE6310020864E /* wheelloading.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wheelloading.png; sourceTree = "<group>"; };
 		322B2AB51E5BE6310020864E /* SDiOSVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDiOSVersion.h; sourceTree = "<group>"; };
 		322B2AB61E5BE6310020864E /* SDiOSVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDiOSVersion.m; sourceTree = "<group>"; };
 		322B2AB71E5BE6310020864E /* SDVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDVersion.h; sourceTree = "<group>"; };
@@ -543,7 +534,6 @@
 				322B2A9F1E5BE6310020864E /* customAlertView */,
 				322B2AA21E5BE6310020864E /* DACircularProgress */,
 				322B2AA71E5BE6310020864E /* EPFoldTableView */,
-				322B2AAE1E5BE6310020864E /* progress */,
 				322B2AB41E5BE6310020864E /* SDVersion */,
 				322B2AB81E5BE6310020864E /* 引导页 */,
 			);
@@ -581,18 +571,6 @@
 				322B2AAD1E5BE6310020864E /* expandableImage@2x.png */,
 			);
 			path = EPFoldTableView;
-			sourceTree = "<group>";
-		};
-		322B2AAE1E5BE6310020864E /* progress */ = {
-			isa = PBXGroup;
-			children = (
-				322B2AAF1E5BE6310020864E /* LMSProgressHUD.h */,
-				322B2AB01E5BE6310020864E /* LMSProgressHUD.m */,
-				322B2AB11E5BE6310020864E /* loading_line.png */,
-				322B2AB21E5BE6310020864E /* LoadingbackView.png */,
-				322B2AB31E5BE6310020864E /* wheelloading.png */,
-			);
-			path = progress;
 			sourceTree = "<group>";
 		};
 		322B2AB41E5BE6310020864E /* SDVersion */ = {
@@ -692,7 +670,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				322B2B0B1E5BE6310020864E /* IOS-750-1334-2.png in Resources */,
-				322B2B001E5BE6310020864E /* loading_line.png in Resources */,
 				322B2B091E5BE6310020864E /* IOS-640-960-2.png in Resources */,
 				322B29341E5BE31B0020864E /* LaunchScreen.storyboard in Resources */,
 				322B29311E5BE31B0020864E /* Assets.xcassets in Resources */,
@@ -700,8 +677,6 @@
 				322B292F1E5BE31B0020864E /* Main.storyboard in Resources */,
 				322B2AFD1E5BE6310020864E /* expandableImage.png in Resources */,
 				322B2B081E5BE6310020864E /* IOS-640-960-1.png in Resources */,
-				322B2B021E5BE6310020864E /* wheelloading.png in Resources */,
-				322B2B011E5BE6310020864E /* LoadingbackView.png in Resources */,
 				322B2B071E5BE6310020864E /* IOS-640-1136-2.png in Resources */,
 				322B2B061E5BE6310020864E /* IOS-640-1136-1.png in Resources */,
 				322B2AE61E5BE6310020864E /* iVersion.bundle in Resources */,
@@ -740,7 +715,6 @@
 				322B2ADA1E5BE6310020864E /* NSDictionary+JKMerge.m in Sources */,
 				322B2AE01E5BE6310020864E /* NSInvocation+JKBb.m in Sources */,
 				322B2AEF1E5BE6310020864E /* UIImage+Color.m in Sources */,
-				322B2AFF1E5BE6310020864E /* LMSProgressHUD.m in Sources */,
 				322B2AC91E5BE6310020864E /* DTConstants.m in Sources */,
 				322B2ACB1E5BE6310020864E /* DTTimePeriod.m in Sources */,
 				322B2AF01E5BE6310020864E /* UIImage+FX.m in Sources */,

@@ -7,7 +7,7 @@
 //
 
 #import "NSDictionary+JKJSONString.h"
-
+#import "NSDictionary+JKSafeAccess.h"
 @implementation NSDictionary (JKJSONString)
 /**
  *  @brief NSDictionary转换成JSON字符串
