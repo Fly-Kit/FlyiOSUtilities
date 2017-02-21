@@ -45,7 +45,7 @@
 		322B2AE51E5BE6310020864E /* NullSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 322B2A6F1E5BE6310020864E /* NullSafe.m */; };
 		322B2AE61E5BE6310020864E /* iVersion.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 322B2A721E5BE6310020864E /* iVersion.bundle */; };
 		322B2AE71E5BE6310020864E /* iVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 322B2A741E5BE6310020864E /* iVersion.m */; };
-		322B2AE81E5BE6310020864E /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 322B2A771E5BE6310020864E /* JSONKit.m */; };
+		322B2AE81E5BE6310020864E /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 322B2A771E5BE6310020864E /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		322B2AE91E5BE6310020864E /* SAMKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 322B2A7A1E5BE6310020864E /* SAMKeychain.m */; };
 		322B2AEA1E5BE6310020864E /* SAMKeychainQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 322B2A7C1E5BE6310020864E /* SAMKeychainQuery.m */; };
 		322B2AEB1E5BE6310020864E /* KxMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 322B2A7F1E5BE6310020864E /* KxMenu.m */; };
@@ -57,10 +57,6 @@
 		322B2AF11E5BE6310020864E /* UIView+CustomBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 322B2A8F1E5BE6310020864E /* UIView+CustomBorder.m */; };
 		322B2AF21E5BE6310020864E /* UIView+LoadNib.m in Sources */ = {isa = PBXBuildFile; fileRef = 322B2A911E5BE6310020864E /* UIView+LoadNib.m */; };
 		322B2AF31E5BE6310020864E /* UIView+Visuals.m in Sources */ = {isa = PBXBuildFile; fileRef = 322B2A931E5BE6310020864E /* UIView+Visuals.m */; };
-		322B2AF41E5BE6310020864E /* CYTReservePopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 322B2A981E5BE6310020864E /* CYTReservePopView.m */; };
-		322B2AF51E5BE6310020864E /* OnLiveLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 322B2A9A1E5BE6310020864E /* OnLiveLabel.m */; };
-		322B2AF61E5BE6310020864E /* rankingCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 322B2A9C1E5BE6310020864E /* rankingCollectionView.m */; };
-		322B2AF71E5BE6310020864E /* rankingCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 322B2A9E1E5BE6310020864E /* rankingCollectionViewCell.m */; };
 		322B2AF81E5BE6310020864E /* CustomIOSAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 322B2AA11E5BE6310020864E /* CustomIOSAlertView.m */; };
 		322B2AF91E5BE6310020864E /* DACircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 322B2AA41E5BE6310020864E /* DACircularProgressView.m */; };
 		322B2AFA1E5BE6310020864E /* DALabeledCircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 322B2AA61E5BE6310020864E /* DALabeledCircularProgressView.m */; };
@@ -187,14 +183,6 @@
 		322B2A921E5BE6310020864E /* UIView+Visuals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Visuals.h"; sourceTree = "<group>"; };
 		322B2A931E5BE6310020864E /* UIView+Visuals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Visuals.m"; sourceTree = "<group>"; };
 		322B2A941E5BE6310020864E /* CECategoryUIKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CECategoryUIKit.h; sourceTree = "<group>"; };
-		322B2A971E5BE6310020864E /* CYTReservePopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYTReservePopView.h; sourceTree = "<group>"; };
-		322B2A981E5BE6310020864E /* CYTReservePopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYTReservePopView.m; sourceTree = "<group>"; };
-		322B2A991E5BE6310020864E /* OnLiveLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnLiveLabel.h; sourceTree = "<group>"; };
-		322B2A9A1E5BE6310020864E /* OnLiveLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnLiveLabel.m; sourceTree = "<group>"; };
-		322B2A9B1E5BE6310020864E /* rankingCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rankingCollectionView.h; sourceTree = "<group>"; };
-		322B2A9C1E5BE6310020864E /* rankingCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = rankingCollectionView.m; sourceTree = "<group>"; };
-		322B2A9D1E5BE6310020864E /* rankingCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rankingCollectionViewCell.h; sourceTree = "<group>"; };
-		322B2A9E1E5BE6310020864E /* rankingCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = rankingCollectionViewCell.m; sourceTree = "<group>"; };
 		322B2AA01E5BE6310020864E /* CustomIOSAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomIOSAlertView.h; sourceTree = "<group>"; };
 		322B2AA11E5BE6310020864E /* CustomIOSAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomIOSAlertView.m; sourceTree = "<group>"; };
 		322B2AA31E5BE6310020864E /* DACircularProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DACircularProgressView.h; sourceTree = "<group>"; };
@@ -552,7 +540,6 @@
 		322B2A951E5BE6310020864E /* Tools */ = {
 			isa = PBXGroup;
 			children = (
-				322B2A961E5BE6310020864E /* CustomAlert */,
 				322B2A9F1E5BE6310020864E /* customAlertView */,
 				322B2AA21E5BE6310020864E /* DACircularProgress */,
 				322B2AA71E5BE6310020864E /* EPFoldTableView */,
@@ -561,21 +548,6 @@
 				322B2AB81E5BE6310020864E /* 引导页 */,
 			);
 			path = Tools;
-			sourceTree = "<group>";
-		};
-		322B2A961E5BE6310020864E /* CustomAlert */ = {
-			isa = PBXGroup;
-			children = (
-				322B2A971E5BE6310020864E /* CYTReservePopView.h */,
-				322B2A981E5BE6310020864E /* CYTReservePopView.m */,
-				322B2A991E5BE6310020864E /* OnLiveLabel.h */,
-				322B2A9A1E5BE6310020864E /* OnLiveLabel.m */,
-				322B2A9B1E5BE6310020864E /* rankingCollectionView.h */,
-				322B2A9C1E5BE6310020864E /* rankingCollectionView.m */,
-				322B2A9D1E5BE6310020864E /* rankingCollectionViewCell.h */,
-				322B2A9E1E5BE6310020864E /* rankingCollectionViewCell.m */,
-			);
-			path = CustomAlert;
 			sourceTree = "<group>";
 		};
 		322B2A9F1E5BE6310020864E /* customAlertView */ = {
@@ -750,9 +722,7 @@
 				322B2ACA1E5BE6310020864E /* DTError.m in Sources */,
 				322B2ADC1E5BE6310020864E /* NSDictionary+JKURL.m in Sources */,
 				322B2AD41E5BE6310020864E /* NSDate+JKFormatter.m in Sources */,
-				322B2AF61E5BE6310020864E /* rankingCollectionView.m in Sources */,
 				322B2ACE1E5BE6310020864E /* DTTimePeriodGroup.m in Sources */,
-				322B2AF41E5BE6310020864E /* CYTReservePopView.m in Sources */,
 				322B2AE81E5BE6310020864E /* JSONKit.m in Sources */,
 				322B2ACD1E5BE6310020864E /* DTTimePeriodCollection.m in Sources */,
 				322B2AEB1E5BE6310020864E /* KxMenu.m in Sources */,
@@ -790,11 +760,9 @@
 				322B2AE41E5BE6310020864E /* UIDevice+CEDeviceHelper.m in Sources */,
 				322B2AEC1E5BE6310020864E /* UIView+Toast.m in Sources */,
 				322B2ACF1E5BE6310020864E /* NSDate+DateTools.m in Sources */,
-				322B2AF71E5BE6310020864E /* rankingCollectionViewCell.m in Sources */,
 				322B2AD51E5BE6310020864E /* NSDate+JKInternetDateTime.m in Sources */,
 				322B2AD11E5BE6310020864E /* NSArray+JKSafeAccess.m in Sources */,
 				322B2AED1E5BE6310020864E /* FileOwner.m in Sources */,
-				322B2AF51E5BE6310020864E /* OnLiveLabel.m in Sources */,
 				322B2AD71E5BE6310020864E /* NSDate+JKUtilities.m in Sources */,
 				322B2AD31E5BE6310020864E /* NSDate+JKExtension.m in Sources */,
 				322B2AE71E5BE6310020864E /* iVersion.m in Sources */,

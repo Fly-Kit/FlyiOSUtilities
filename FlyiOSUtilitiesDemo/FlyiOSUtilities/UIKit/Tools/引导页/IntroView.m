@@ -8,7 +8,7 @@
 
 #import "IntroView.h"
 #import "SMPageControl.h"
-
+#import "EPMacroConstant.h"
 @interface IntroView ()
 {
     NSMutableArray *pageViews;
