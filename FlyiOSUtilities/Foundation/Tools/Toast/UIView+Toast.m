@@ -26,7 +26,6 @@
 #import "UIView+Toast.h"
 #import <QuartzCore/QuartzCore.h>
 #import <objc/runtime.h>
-#import "CEAppDelegate.h"
 
 NSString * CSToastPositionTop       = @"CSToastPositionTop";
 NSString * CSToastPositionCenter    = @"CSToastPositionCenter";
@@ -68,7 +67,7 @@ static const NSString * CSToastQueueKey             = @"CSToastQueueKey";
 #pragma mark - Make Toast Methods
 
 + (void)makeToast:(NSString *)message{
-    UIWindow *window = CESharedAppDelegate.window;
+    UIWindow *window = [[UIApplication sharedApplication].windows lastObject]; 
     [window makeToast:message];
 }
 

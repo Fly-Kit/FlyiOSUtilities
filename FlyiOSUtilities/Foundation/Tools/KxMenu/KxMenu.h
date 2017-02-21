@@ -33,7 +33,7 @@
 
 
 #import <Foundation/Foundation.h>
-
+#import <UIKit/UIKit.h>
 @interface KxMenuItem : NSObject
 
 @property (readwrite, nonatomic, strong) UIImage *image;
