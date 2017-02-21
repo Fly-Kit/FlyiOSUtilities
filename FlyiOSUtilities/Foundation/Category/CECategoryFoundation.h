@@ -24,5 +24,4 @@
 #import "UIDevice+CEDeviceHelper.h"
 #import "NSString+CEMD5.h"
 #import "NSError+CEError.h"
-#import "YYCache+CECache.h"
 #endif /* JKFoundation_h */
